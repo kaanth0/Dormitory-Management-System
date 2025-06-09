@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Root\\Desktop\\DormitoryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|..\\VS Proje Data\\YurtSistemi\\WebApplication1\\WebApplication1.csproj|c:\\users\\root\\desktop\\vs proje data\\yurtsistemi\\webapplication1\\yemekhane.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\webapplication1\\yemekhane.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|..\\VS Proje Data\\YurtSistemi\\WebApplication1\\WebApplication1.csproj|c:\\users\\root\\desktop\\vs proje data\\yurtsistemi\\webapplication1\\yonetici_giris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\webapplication1\\yemekhane.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|WebApplication1\\WebApplication1.csproj|c:\\users\\root\\desktop\\vs proje data\\yurtsistemi\\webapplication1\\yurthakkinda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBCD00E-2114-4F99-A488-3C2F925757DA}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\webapplication1\\yurthakkinda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "yemekhane.css",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-09T01:15:45.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "yemekhane.css",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yemekhane.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T21:00:49.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yonetici_giris.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yonetici_giris.aspx.cs",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yonetici_giris.aspx.cs",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yonetici_giris.aspx.cs",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yonetici_giris.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:41:07.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Yemekhane.aspx",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\Yemekhane.aspx",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\Yemekhane.aspx",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\Yemekhane.aspx",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\Yemekhane.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T21:01:01.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YurtHakkinda.aspx",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\YurtHakkinda.aspx",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\YurtHakkinda.aspx",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\YurtHakkinda.aspx",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\YurtHakkinda.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T21:04:36.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "yurthakkinda.css",
+              "DocumentMoniker": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yurthakkinda.css",
+              "RelativeDocumentMoniker": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yurthakkinda.css",
+              "ToolTip": "C:\\Users\\Root\\Desktop\\VS Proje Data\\YurtSistemi\\WebApplication1\\yurthakkinda.css",
+              "RelativeToolTip": "..\\VS Proje Data\\YurtSistemi\\WebApplication1\\yurthakkinda.css",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAwwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T21:04:32.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

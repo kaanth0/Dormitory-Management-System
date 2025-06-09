@@ -1,0 +1,110 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1a1a1a, #2e2e2e);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+}
+
+form {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #2b2b2b;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+
+/* GridView Styling */
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+    .gridview th, .gridview td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+    }
+
+    .gridview th {
+        background-color: #3a7bd5;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .gridview tr:nth-child(even) {
+        background-color: #2e2e2e;
+    }
+
+    .gridview tr:hover {
+        background-color: #3a3a3a;
+    }
+
+/* Edit mode input styling */
+.textbox, .dropdown {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Delete button */
+.button.delete {
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+    .button.delete:hover {
+        background: linear-gradient(135deg, #f9d423, #ff4e50);
+        transform: scale(1.05);
+    }
+
+/* Edit button from CommandField */
+a[title="Edit"] {
+    color: #00d2ff !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a[title="Edit"]:hover {
+        text-decoration: underline;
+    }
+
+/* Geri Dön Button */
+.btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+    .btn-secondary:hover {
+        background: linear-gradient(135deg, #4ca1af, #2c3e50);
+        transform: scale(1.05);
+    }
