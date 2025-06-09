@@ -32,3 +32,5 @@ Dormitory Management System (Yurt Otomasyon Sistemi) 🏠
 📄 License (Lisans)
 MIT License – Free to use and modify
 (MIT Lisansı – Serbestçe kullanılabilir ve değiştirilebilir)
+
+- Admin Account =  ID : Admin / Password : 12345
