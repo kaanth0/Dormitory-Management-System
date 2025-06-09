@@ -1,0 +1,115 @@
+﻿/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Genel */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2d2d7f, #6c63ff);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+/* Başlık */
+header h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+    .login-form label {
+        text-align: left;
+        font-weight: 600;
+        font-size: 14px;
+        color: #cccccc;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"],
+    .login-form .aspNet-TextBox {
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        width: 100%;
+        background-color: #eeeeee;
+        color: #333;
+        margin-top: 4px;
+    }
+
+/* Butonlar */
+.button, .button-back {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button {
+    background-color: #4caf50;
+    color: white;
+}
+
+    .button:hover {
+        background-color: #43a047;
+    }
+
+.button-back {
+    background-color: #f44336;
+    color: white;
+}
+
+    .button-back:hover {
+        background-color: #d32f2f;
+    }
+
+/* Kayıt Linki */
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+    .register-link a {
+        color: #ffcc00;
+        text-decoration: none;
+    }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #aaa;
+}

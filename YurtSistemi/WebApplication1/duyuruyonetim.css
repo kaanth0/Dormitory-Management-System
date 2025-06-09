@@ -1,0 +1,105 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1f1f1f, #2b2b2b);
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #2e2e2e;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    margin-bottom: 30px;
+    color: #00d2ff;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #00d2ff;
+    padding-bottom: 10px;
+}
+
+main label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #bdc3c7;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 8px;
+    border: 1px solid #444;
+    background-color: #1a1a1a;
+    color: #ecf0f1;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.button {
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .button:hover {
+        background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+        transform: scale(1.05);
+    }
+
+/* GridView styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+    table th, table td {
+        padding: 14px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+    }
+
+    table th {
+        background-color: #3a7bd5;
+        color: white;
+        font-weight: 600;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #2b2b2b;
+    }
+
+    table tr:hover {
+        background-color: #353535;
+    }
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    color: #7f8c8d;
+    font-size: 14px;
+}

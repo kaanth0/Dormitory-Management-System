@@ -1,0 +1,111 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1b1b1b, #292929);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #2c2c2c;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00d2ff;
+    border-bottom: 3px solid #00d2ff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* GridView table */
+.grid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
+    .grid-table th, .grid-table td {
+        padding: 14px;
+        border-bottom: 1px solid #444;
+        text-align: center;
+    }
+
+    .grid-table th {
+        background-color: #3a7bd5;
+        color: white;
+        font-weight: bold;
+    }
+
+    .grid-table tr:nth-child(even) {
+        background-color: #292929;
+    }
+
+    .grid-table tr:hover {
+        background-color: #333333;
+    }
+
+/* Input alanları */
+.input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    background-color: #1a1a1a;
+    color: #ecf0f1;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Butonlar */
+.button, .btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .button:hover, .btn:hover {
+        background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+        transform: scale(1.05);
+    }
+
+/* Kırmızı buton özel */
+.btn-danger {
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    color: #fff;
+}
+
+    .btn-danger:hover {
+        background: linear-gradient(135deg, #f9d423, #ff4e50);
+    }
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 13px;
+    color: #7f8c8d;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+}

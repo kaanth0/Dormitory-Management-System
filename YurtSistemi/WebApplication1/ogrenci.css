@@ -1,0 +1,114 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    border-radius: 25px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+/* Bilgiler */
+.bilgiler label {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    display: block;
+    color: #e0e0e0;
+}
+
+.form-label {
+    display: block;
+    margin-top: 5px;
+    padding: 12px 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 15px;
+    backdrop-filter: blur(5px);
+}
+
+/* Buton Grupları */
+.talep-butonlari, .cikis {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 35px;
+}
+
+/* VIP Butonlar */
+.btn {
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+}
+
+/* Renkler */
+/* Daha elit buton renkleri */
+.btn-primary {
+    background: linear-gradient(to right, #0f2027, #203a43);
+}
+
+.btn-success {
+    background: linear-gradient(to right, #14532d, #166534);
+}
+
+.btn-danger {
+    background: linear-gradient(to right, #7f1d1d, #991b1b);
+}
+
+.btn-dark {
+    background: linear-gradient(to right, #1f2937, #111827);
+}
+
+/* Hover efekti: sadece hafif parlama */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    opacity: 0.95;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}

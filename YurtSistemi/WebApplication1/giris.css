@@ -1,0 +1,17 @@
+﻿/* Giriş Formu */
+.login-form {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+    /* Input Kutuları */
+    .login-form input {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+        font-size: 16px;
+    }
